@@ -1,0 +1,25 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  padding-top: 5px;
+  position: relative;
+}
+
+ul li {
+  position: relative;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+}
+
+ul li label {
+  font-weight: 400;
+  font-size: 1.2em;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 30px 0;
+  position: relative;
+  border-top: 1px solid #eaeaea;
+}

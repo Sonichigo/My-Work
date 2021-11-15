@@ -1,0 +1,49 @@
+.feed {
+  border: 1px solid rgb(53, 108, 156, 0.5);
+  min-width: 200px;
+  overflow-y: inherit;
+  height: 100%;
+  width: 100%;
+  box-shadow: 10px 10px 50px grey;
+  z-index: 9999999;
+}
+
+/* .feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
+
+.feed_header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid rgb(103, 106, 109);
+  padding: 15px 20px;
+}
+
+.feed_header > h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.custom {
+  overflow-y: scroll;
+  height: 87.5vh;
+}
+
+.feed::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+.feed::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255); /* color of the tracking area */
+}
+.feed::-webkit-scrollbar-thumb {
+  background-color: rgba(54, 54, 54, 0.466); /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: 3px solid rgba(78, 78, 78, 0.452); /* creates padding around scroll thumb */
+}
