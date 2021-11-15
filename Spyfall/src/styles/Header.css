@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #1a1a1a;
+    color: rgb(207, 207, 207);
+    height: 55px;
+  }
+
+  .navbar #text{
+    color: aqua;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 2%;
+  }
