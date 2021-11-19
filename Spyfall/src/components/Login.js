@@ -1,6 +1,6 @@
 import React from "react";
 import Sawo from "sawo";
-import Dashboard from "./Dashboard";
+import Router from "./Router";
 require('dotenv').config()
 function Login() { 
 
@@ -24,9 +24,9 @@ React.useEffect(() => {
          <div
           id="sawo-container"
           style={{ height: "450px", width: "300px" }}
-        > <h2>Access Granted? </h2></div>
+        > <h2>Spyall Authorized </h2></div>
         {payload && (
-        <Dashboard/>
+        <Router/>
         )}
         </>
   );

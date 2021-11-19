@@ -1,9 +1,9 @@
 import "./App.css";
-import Router from "./components/Router";
+import Login from "./components/Login";
 
 function App() {
   return (
-    <Router/>
+    <Login/>
     );
 }
 
